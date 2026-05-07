@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSmart | Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        agro: {
+                            light: '#e8fdf0',
+                            DEFAULT: '#15803d',
+                            dark: '#166534',
+                            footer: '#0f172a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+    <nav class="bg-white py-4 border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
+            <div class="flex items-center text-agro font-bold text-2xl">
+                <i class="fa-solid fa-leaf mr-2"></i> AgroSmart
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+                <a href="index.html" class="text-agro font-semibold">Accueil</a>
+                <a href="solution.html" class="hover:text-agro transition">Notre Solution</a>
+                <a href="tarifs.html" class="hover:text-agro transition">Tarifs</a>
+                <a href="contact.html" class="hover:text-agro transition">Contact</a>
+            </div>
+            <div class="hidden md:flex items-center">
+                <a href="contact.html" class="bg-agro text-white px-6 py-2 rounded-md hover:bg-agro-dark transition font-medium">Inscription</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-agro-light pt-20 pb-24">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="font-bold text-gray-900 leading-[1.2] mb-6 tracking-tight">
+                    <span class="text-4xl lg:text-5xl block mb-2">
+                        L'agriculture de demain,<br>
+                        pilotée aujourd'hui avec
+                    </span>
+                    <span class="text-6xl lg:text-7xl text-agro block">AgroSmart</span>
+                </h1>
+                
+                <p class="text-gray-600 text-lg mb-8 max-w-lg leading-relaxed">
+                    La plateforme tout-en-un pour moderniser l'agriculture marocaine. Gestion complète, IoT intégré, décisions optimisées.
+                </p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="solution.html" class="bg-agro text-white font-semibold px-8 py-3 rounded-md hover:bg-agro-dark transition shadow-lg flex items-center">
+                        Découvrir la technologie <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-2xl shadow-xl">
+                <img src="1.jpeg" alt="Agriculture" class="rounded-xl w-full object-cover h-80">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
+                <div>
+                    <div class="text-4xl font-extrabold text-agro mb-2">-25%</div>
+                    <div class="text-sm text-gray-500 font-medium">Réduction des pertes</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-extrabold text-agro mb-2">+20%</div>
+                    <div class="text-sm text-gray-500 font-medium">Augmentation de rentabilité</div>
+                </div>
+                <div>
+                    <div class="text-4xl text-agro mb-2"><i class="fa-solid fa-microchip"></i></div>
+                    <div class="text-sm text-gray-500 font-medium">Technologie IoT Intégrée</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-extrabold text-agro mb-2">24/7</div>
+                    <div class="text-sm text-gray-500 font-medium">Supervision en temps réel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Une solution complète pour votre exploitation</h2>
+                <p class="text-gray-500">AgroSmart combine la puissance d'Odoo avec l'innovation matérielle pour révolutionner votre gestion.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-agro text-2xl mb-4"><i class="fa-solid fa-seedling"></i></div>
+                    <h3 class="font-bold text-gray-900 mb-2">Gestion des cultures</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Suivez vos cultures en temps réel avec des données précises.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-agro text-2xl mb-4"><i class="fa-solid fa-chart-simple"></i></div>
+                    <h3 class="font-bold text-gray-900 mb-2">Analyse des données</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Prenez des décisions éclairées grâce aux tableaux de bord.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-agro text-2xl mb-4"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                    <h3 class="font-bold text-gray-900 mb-2">Rentabilité accrue</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Optimisez vos ressources et contrôlez vos dépenses.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="text-agro text-2xl mb-4"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="font-bold text-gray-900 mb-2">Sécurité des données</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Vos données agricoles sont sécurisées, chiffrées et accessibles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-agro-dark py-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-8">Pourquoi choisir AgroSmart ?</h2>
+                <ul class="space-y-4 text-white text-lg">
+                    <li class="flex items-center"><i class="fa-regular fa-circle-check mr-4 text-agro-light"></i> Plateforme Odoo complète et personnalisable</li>
+                    <li class="flex items-center"><i class="fa-regular fa-circle-check mr-4 text-agro-light"></i> Capteurs IoT pour surveillance en temps réel</li>
+                    <li class="flex items-center"><i class="fa-regular fa-circle-check mr-4 text-agro-light"></i> Support technique dédié</li>
+                    <li class="flex items-center"><i class="fa-regular fa-circle-check mr-4 text-agro-light"></i> Algorithmes d'assistance météo</li>
+                    <li class="flex items-center"><i class="fa-regular fa-circle-check mr-4 text-agro-light"></i> Architecture réseau hautement sécurisée</li>
+                </ul>
+            </div>
+            <div class="bg-white p-10 rounded-2xl shadow-2xl">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Prêt à moderniser votre exploitation ?</h3>
+                <p class="text-gray-600 mb-8">Passez à l'agriculture de précision avec une infrastructure centralisée et sécurisée, pensée pour les défis de demain.</p>
+                <a href="contact.html" class="bg-agro text-white font-semibold px-6 py-3 rounded-md hover:bg-agro-dark transition flex items-center justify-center w-max">
+                    Nous contacter <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-agro-footer text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-10 border-b border-gray-700 pb-12 mb-8">
+                <div class="col-span-1">
+                    <div class="flex items-center text-white font-bold text-2xl mb-4">
+                        <i class="fa-solid fa-leaf text-agro mr-2"></i> AgroSmart
+                    </div>
+                    <p class="text-sm leading-relaxed text-gray-500">Digitaliser l'agriculture marocaine avec des solutions Odoo innovantes.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="hover:text-white transition">Accueil</a></li>
+                        <li><a href="solution.html" class="hover:text-white transition">Notre Solution</a></li>
+                        <li><a href="tarifs.html" class="hover:text-white transition">Tarifs</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Légal</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Mentions légales</a></li>
+                        <li><a href="#" class="hover:text-white transition">Confidentialité</a></li>
+                        <li><a href="#" class="hover:text-white transition">CGV</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-center"><i class="fa-regular fa-envelope mr-3 text-gray-500"></i> contact@agrosmart.ma</li>
+                        <li class="flex items-center"><i class="fa-solid fa-phone mr-3 text-gray-500"></i> +212 5XX XXX XXX</li>
+                        <li class="flex items-center"><i class="fa-solid fa-location-dot mr-3 text-gray-500"></i> El Jadida, Maroc</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-sm text-gray-600">
+                &copy; 2026 AgroSmart. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
